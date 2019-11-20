@@ -1,14 +1,14 @@
-const myImage = document.getElementById("qqqqqqqq"); //获取img的值,存储到myImage中
+const myImage = document.getElementById("my-Img"); //获取img的值,存储到myImage中
 const myButton = document.querySelector('button'); //获取button的值,存储到myButton中
 const myHeading = document.querySelector('h1'); //获取h1的值,存储到myHeading中
 
 //获取src,点击logo图标,判断显示第一张或第二张
 myImage.onclick = ()=>{// ECMAScript 6 
 	let mySrc = myImage.getAttribute('src');
-	if(mySrc === '../test-size/imags/firefox-icon.png'){
-		myImage.setAttribute('src', '../test-size/imags/firefox2.png');
+	if(mySrc === 'images/firefox-icon.png'){
+		myImage.setAttribute('src', 'images/firefox2.png');
 	}else{
-		myImage.setAttribute('src', '../test-size/imags/firefox-icon.png');
+		myImage.setAttribute('src', 'images/firefox-icon.png');
 	}
 }
 
