@@ -1,0 +1,40 @@
+/* 全局元素 */
+html {
+	/* 基础为 10 像素 */
+    font-size: 10px;
+	/* Google fonts 输出的 CSS */
+	font-family: 'Open Sans', sans-serif;
+	background-color: #00539F;
+}
+
+/* 主体显式元素 */
+body {
+	width: 600px; /* 强制保持600像素宽 */
+	margin: 0 auto; /* 外边距 上下为0 左右自动 居中 */
+	background-color: #FF9500;
+	padding: 0 20px 20px 20px; /* 内边距 上为0 右下左分别空20像素 */ 
+	border: 5px solid black; /* 设置为5像素的黑边框 */
+}
+
+/* 标题元素 */
+h1 {
+	margin: 0;
+	padding: 20px 0;
+	color: #00539F;
+	text-shadow: 3px 3px 1px black; /* 设置阴影为: 水平垂直3像素,模糊1像素,黑色边框 */
+	font-size: 60px;
+	text-align: center;
+}
+
+/* 段落与列表元素 */
+p,li {
+	font-size: 16px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+/* 图片元素 */
+img {
+	display: block; /* 授予块级元素的权限 */
+	margin: 0 auto;
+}
